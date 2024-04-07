@@ -10,7 +10,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "金甲AI",
+  title: "金甲 AI",
   description: "The AI assistant of the JinJia Studio.",
   viewport: {
     width: "device-width",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "金甲AI",
+    title: "金甲 AI",
     statusBarStyle: "default",
   },
 };

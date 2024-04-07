@@ -8,7 +8,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "金甲AI",
+    "productName": "金甲 AI",
     "version": "2.11.3"
   },
   "tauri": {
@@ -68,7 +68,7 @@
         "icons/icon.ico"
       ],
       "identifier": "com.yida.chatgpt.next.web",
-      "longDescription": "金甲AI is a cross-platform ChatGPT client, including Web/Win/Linux/OSX/PWA.",
+      "longDescription": "金甲 AI is a cross-platform ChatGPT client, including Web/Win/Linux/OSX/PWA.",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
@@ -77,7 +77,7 @@
         "signingIdentity": null
       },
       "resources": [],
-      "shortDescription": "金甲AI App",
+      "shortDescription": "金甲 AI App",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
@@ -105,7 +105,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "金甲AI",
+        "title": "金甲 AI",
         "width": 960,
         "hiddenTitle": true,
         "titleBarStyle": "Overlay"
