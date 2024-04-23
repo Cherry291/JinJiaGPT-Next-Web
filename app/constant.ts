@@ -1,4 +1,4 @@
-export const OWNER = "Cherry291";
+export const OWNER = "flyweb";
 export const REPO = "JinJiaGPT-Next-Web";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
