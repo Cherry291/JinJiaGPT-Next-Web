@@ -7,6 +7,7 @@ import { type Metadata } from "next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { getServerSideConfig } from "./config/server";
 import { GoogleTagManager } from "@next/third-parties/google";
+import GoogleAdsClientComponent from "./components/GoogleAdsClientComponent.tsx";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
@@ -71,6 +72,8 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+        {/* 使用客户端组件 */}
+        <GoogleAdsClientComponent />
         {serverConfig?.isVercel && (
           <>
             <SpeedInsights />
