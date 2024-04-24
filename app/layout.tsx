@@ -52,7 +52,7 @@ export default function RootLayout({
             `,
           }}
         />
-        
+
         {/* 将百度统计代码写入 <script> 标签 */}
         <script
           dangerouslySetInnerHTML={{
@@ -66,6 +66,7 @@ export default function RootLayout({
               })();
             `,
           }}
+        />
 
       </head>
       <body>
