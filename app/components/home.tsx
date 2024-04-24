@@ -136,19 +136,6 @@ function Screen() {
     loadAsyncGoogleFont();
   }, []);
 
-  // 谷歌广告延迟加载
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      const script = document.createElement('script');
-      script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5517951218257829';
-      script.async = true;
-      script.crossOrigin = 'anonymous';
-      document.head.appendChild(script);
-    }, 1000); // 延迟1秒执行
-
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <div
       className={
