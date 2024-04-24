@@ -145,9 +145,8 @@ export function SideBar(props: { className?: string }) {
 
   return (
     <div
-      className={`${styles.sidebar} ${props.className} ${
-        shouldNarrow && styles["narrow-sidebar"]
-      }`}
+      className={`${styles.sidebar} ${props.className} ${shouldNarrow && styles["narrow-sidebar"]
+        }`}
       style={{
         // #3016 disable transition on ios mobile screen
         transition: isMobileScreen && isIOSMobile ? "none" : undefined,
@@ -197,6 +196,25 @@ export function SideBar(props: { className?: string }) {
         }}
       >
         <ChatList narrow={shouldNarrow} />
+        <div className="ad-placeholder">
+          {/* 谷歌广告代码 */}
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5517951218257829"
+            crossorigin="anonymous"
+          ></script>
+          {/* 金甲AI卡片广告-正方形 */}
+          <ins
+            className="adsbygoogle"
+            style={{ display: "block" }}
+            data-ad-client="ca-pub-5517951218257829"
+            data-ad-slot="6266835263"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+          <script>{`(adsbygoogle = window.adsbygoogle || []).push({});`}</script>
+        </div>
+
       </div>
 
       <div className={styles["sidebar-tail"]}>
