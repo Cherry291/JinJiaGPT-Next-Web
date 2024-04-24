@@ -196,27 +196,26 @@ export function SideBar(props: { className?: string }) {
         }}
       >
         <ChatList narrow={shouldNarrow} />
+      </div>
 
-        <div className="ad-placeholder">
-          {/* 谷歌广告代码 */}
-          <script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5517951218257829"
-            crossOrigin="anonymous"
-          ></script>
-          
-          {/* 金甲AI卡片广告-正方形 */}
-          <ins
-            className="adsbygoogle"
-            style={{ display: "block" }}
-            data-ad-client="ca-pub-5517951218257829"
-            data-ad-slot="6266835263"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-          <script>{`(adsbygoogle = window.adsbygoogle || []).push({});`}</script>
+      <div className="ad-placeholder">
+        {/* 谷歌广告代码 */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5517951218257829"
+          crossOrigin="anonymous"
+        ></script>
 
-        </div>
+        {/* 金甲AI卡片广告-正方形 */}
+        <ins
+          className="adsbygoogle"
+          style={{ display: "block" }}
+          data-ad-client="ca-pub-5517951218257829"
+          data-ad-slot="6266835263"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+        <script>{`(adsbygoogle = window.adsbygoogle || []).push({});`}</script>
 
       </div>
 
