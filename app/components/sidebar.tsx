@@ -187,17 +187,6 @@ export function SideBar(props: { className?: string }) {
         />
       </div>
 
-      <div
-        className={styles["sidebar-body"]}
-        onClick={(e) => {
-          if (e.target === e.currentTarget) {
-            navigate(Path.Home);
-          }
-        }}
-      >
-        <ChatList narrow={shouldNarrow} />
-      </div>
-
       <div className="ad-placeholder">
         {/* 谷歌广告代码 */}
         <script
@@ -217,6 +206,17 @@ export function SideBar(props: { className?: string }) {
         ></ins>
         <script>{`(adsbygoogle = window.adsbygoogle || []).push({});`}</script>
 
+      </div>
+
+      <div
+        className={styles["sidebar-body"]}
+        onClick={(e) => {
+          if (e.target === e.currentTarget) {
+            navigate(Path.Home);
+          }
+        }}
+      >
+        <ChatList narrow={shouldNarrow} />
       </div>
 
       <div className={styles["sidebar-tail"]}>
