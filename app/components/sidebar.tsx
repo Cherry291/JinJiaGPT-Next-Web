@@ -201,7 +201,7 @@ export function SideBar(props: { className?: string }) {
           <script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5517951218257829"
-            crossorigin="anonymous"
+            crossOrigin="anonymous"
           ></script>
           {/* 金甲AI卡片广告-正方形 */}
           <ins
